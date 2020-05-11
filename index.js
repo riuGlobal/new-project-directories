@@ -9,8 +9,8 @@ if (!process.env.npm_config_project) {
 
 const PROJECT_NAME = process.env.npm_config_project;
 
-const environment = mkdirp.sync(`${PROJECT_NAME}/environment`)
-const environment = mkdirp.sync(`${PROJECT_NAME}/access`)
-const environment = mkdirp.sync(`${PROJECT_NAME}/info`)
-const environment = mkdirp.sync(`${PROJECT_NAME}/incidents`)
-const environment = mkdirp.sync(`${PROJECT_NAME}/sec`)
+mkdirp.sync(`${PROJECT_NAME}/environment`)
+mkdirp.sync(`${PROJECT_NAME}/access`)
+mkdirp.sync(`${PROJECT_NAME}/info`)
+mkdirp.sync(`${PROJECT_NAME}/incidents`)
+mkdirp.sync(`${PROJECT_NAME}/sec`)
