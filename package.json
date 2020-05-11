@@ -4,7 +4,7 @@
   "description": "New project directories",
   "main": "index.js",
   "bin": {
-    "boilerplate-cli-tori": "./index.js"
+    "new-project-directories": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
