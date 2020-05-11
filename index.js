@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const mkdirp = require('mkdirp')
 
 
