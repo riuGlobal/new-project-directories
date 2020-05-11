@@ -1,0 +1,27 @@
+{
+  "name": "new-project-directories",
+  "version": "1.0.0",
+  "description": "New project directories",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "help": "echo 'Example run: npm run start --project=my-new-project'",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riuGlobal/new-project-directories.git"
+  },
+  "keywords": [
+    "directories"
+  ],
+  "author": "Ricardo Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riuGlobal/new-project-directories/issues"
+  },
+  "homepage": "https://github.com/riuGlobal/new-project-directories#readme",
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  }
+}
