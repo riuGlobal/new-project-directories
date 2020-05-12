@@ -11,6 +11,7 @@ if (process.argv.indexOf('--help')>-1) {
     console.log(`Example run: npm run start my-new-project \n
     or npx github-repo my-new-project
     `)
+    process.exit(0)
 }
 
 const PROJECT_NAME = process.argv[2]
