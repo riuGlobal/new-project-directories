@@ -7,6 +7,12 @@ if (!process.argv[2]) {
     process.exit(0)
 }
 
+if (process.argv.indexOf('--help')>-1) {
+    console.log(`Example run: npm run start my-new-project \n
+    or npx github-repo my-new-project
+    `)
+}
+
 const PROJECT_NAME = process.argv[2]
 
 mkdirp.sync(`${PROJECT_NAME}/environment`)
@@ -14,3 +20,5 @@ mkdirp.sync(`${PROJECT_NAME}/access`)
 mkdirp.sync(`${PROJECT_NAME}/info`)
 mkdirp.sync(`${PROJECT_NAME}/incidents`)
 mkdirp.sync(`${PROJECT_NAME}/sec`)
+
+console.log(`Created directories for project ${process.argv[2]}`)
